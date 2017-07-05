@@ -1,0 +1,156 @@
+
+body{
+  background-image: url("../img/texture.png");
+   /*background: #efeeee; */
+   color: #212121;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+}
+
+.containerMain{
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  display: grid;
+  grid-template-rows:  40% 10% 40% ;
+  grid-template-columns: 300px 300px 300px;
+  grid-column-gap: 50px;
+  grid-row-gap: 10px;
+
+}
+
+.team{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 70px, 70px, 70px;
+}
+
+.middle{
+  display:grid;
+  grid-template-rows: repeat(6,1fr);
+}
+
+
+/*INFO*/
+.info{
+  text-align: center;
+}
+
+.icon{
+  height: 25px;
+  padding-left: 8px;
+}
+/*TEAMS*/
+.logo{
+  position: relative;
+  width: 110px;
+  display: inline-block;
+  padding-left:
+}
+
+/*PLAYERS */
+.player{
+  height:60px;
+}
+
+.players{
+}
+.player_jg{
+  padding-top: 34px;
+  padding-left: 40px;
+}
+.player_mid{
+  padding-left: 23px;
+}
+.player_adc{
+  padding-top: 30px;
+}
+.player_supp{
+  padding-left: 30px;
+}
+/*NA PLAYERS*/
+.NAplayer_jg{
+  padding-left: 40px;
+
+}
+.NAplayer_mid{
+  padding-left: 25px;
+  padding-top: 30px;
+}
+.NAplayer_adc{
+}
+
+.NAplayer_supp{
+  padding-left: 40px;
+  padding-top: 60px;
+}
+.NAplayer_top{
+  padding-top: 60px;
+}
+
+/*FIGCAPTION*/
+figcaption{
+  font-size: 0.7rem;
+}
+.fig_jg{
+  text-align: right;
+  padding-right: 13px;
+
+}
+.fig_mid{
+  text-align: center;
+  padding-left: 15px;
+}
+.fig_adc{
+  text-align: center;
+padding-right: 13px;
+}
+.fig_supp{
+text-align: right;
+padding-right: 10px;
+}
+.fig_top{
+  padding-left: 13px;
+
+}
+.fig_logo{
+text-align: center;
+
+}
+
+/*VS*/
+.day1{
+  color:#0b90b3;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.day2{
+  color: #e78840;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.day3{
+  color: #c1373e;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*TRANSITION CLASSES*/
+.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+.fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
